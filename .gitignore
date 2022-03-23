@@ -31,3 +31,6 @@ node_modules/
 
 # Visual studio code settings
 .vscode
+
+# Build directory
+/build
