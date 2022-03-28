@@ -49,6 +49,6 @@ add_action( 'enqueue_block_editor_assets', function () {
 
 add_action( 'init', function () {
 	if ( ! is_admin() ) {
-		wp_enqueue_style( 'my-frontend-style' );
+		wp_enqueue_style( 'starter-plugin-frontend-style' );
 	}
 } );
